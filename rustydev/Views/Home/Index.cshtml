@@ -1,0 +1,197 @@
+﻿@{
+    ViewData["Title"] = "Rustam Urazbakhtin";
+}
+
+@model List<SkillList>
+
+<section class="container mx-auto" style="max-width: 900px;">
+    <!-- Profile -->
+    <div class="ios-widget mb-5 d-flex flex-column flex-lg-row align-items-center gap-4">
+        <img src="~/images/profile.jpg" alt="Rustam Urazbakhtin" class="profile-img flex-shrink-0">
+        <div class="flex-grow-1 text-center text-lg-start">
+            <h1 class="mb-3">Hello! I am Rustam Urazbakhtin</h1>
+            <p class="lead mb-4">
+                Full Stack developer with experience in ASP.NET MVC, Android, microservices and databases.<br />
+                I create useful web applications and constantly develop in programming.
+            </p>
+
+            <a href="~/files/Rustam_Urazbakhtin_Resume.pdf" target="_blank" class="btn btn-primary btn-lg shadow-sm">
+                <i class="bi bi-download me-2"></i> Download resume (PDF)
+            </a>
+
+            <div class="mt-4 fs-5 text-center text-lg-start contact-icons">
+                <p>
+                    <i class="bi bi-envelope-fill me-2"></i>
+                    <a href="mailto:urazbakhtin.jobs@gmail.com">urazbakhtin.jobs@gmail.com</a>
+                </p>
+                <p>
+                    <i class="bi bi-telephone-fill me-2"></i>
+                    <a href="tel:+16464921555">+1 (646) 492-1555</a>
+                </p>
+                <p>
+                    <a href="https://linkedin.com/in/rustamur" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin fs-3 me-3"></i></a>
+                    <a href="https://github.com/RustamUrazbakhtin" target="_blank" aria-label="GitHub"><i class="bi bi-github fs-3"></i></a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me -->
+    <div id="about" class="ios-widget mb-5">
+        <h2 class="mb-3 fw-bold">About Me</h2>
+        <p>
+            I am a .NET developer with over 3 years of experience, including participation in international projects.<br>
+            I have worked in large Russian IT companies, developing web applications, microservices, and mobile solutions.
+        </p>
+        <p>
+            I am proficient in ASP.NET MVC, Android development, SQL, and database design.
+        </p>
+        <p>
+            I hold a Bachelor's degree in Information Technology and a Master's degree in Applied Computer Science.<br>
+            Additionally, I am a certified Android developer (Samsung IT Academy).
+        </p>
+        <p>
+            I am a fast learner who enjoys solving complex problems and building reliable, high-performance applications.
+        </p>
+    </div>
+
+    <!-- Skills -->
+    <div id="skills" class="ios-widget mb-5">
+        <h2 class="mb-4 fw-bold">Skills</h2>
+        <div class="skills-grid">
+            <!--TODO: Finish the database and integrate it into the project-->
+            @*foreach(var skill in Model)
+            {
+                    <div class="skill-card"><i class="@skill.IconPath skill-icon"></i> @skill.Name</div>
+            }*@
+            <div class="skill-card"><i class="bi bi-code-slash skill-icon"></i> C#</div>
+            <div class="skill-card"><i class="bi bi-file-code skill-icon"></i> Java</div>
+            <div class="skill-card"><i class="bi bi-server skill-icon"></i> MSSQL</div>
+            <div class="skill-card"><i class="bi bi-code-slash skill-icon"></i> HTML</div>
+            <div class="skill-card"><i class="bi bi-braces skill-icon"></i> CSS</div>
+            <div class="skill-card"><i class="bi bi-code-square skill-icon"></i> JavaScript</div>
+            <div class="skill-card"><i class="bi bi-layout-text-window-reverse skill-icon"></i> ASP.NET MVC</div>
+            <div class="skill-card"><i class="bi bi-cpu skill-icon"></i> .NET Core</div>
+            <div class="skill-card"><i class="bi bi-phone skill-icon"></i> Xamarin</div>
+            <div class="skill-card"><i class="bi bi-database skill-icon"></i> Entity Framework</div>
+            <div class="skill-card"><i class="bi bi-diagram-3 skill-icon"></i> Microservices Architecture</div>
+            <div class="skill-card"><i class="bi bi-file-earmark-text skill-icon"></i> Microsoft Office Suite</div>
+            <div class="skill-card"><i class="bi bi-cloud-arrow-up skill-icon"></i> Google Workspace</div>
+            <div class="skill-card"><i class="bi bi-git skill-icon"></i> GIT</div>
+            <div class="skill-card"><i class="bi bi-code-slash skill-icon"></i> jQuery</div>
+            <div class="skill-card"><i class="bi bi-arrow-repeat skill-icon"></i> AJAX</div>
+            <div class="skill-card"><i class="bi bi-chat-dots skill-icon"></i> ChatGPT</div>
+            <div class="skill-card"><i class="bi bi-stars skill-icon"></i> Gemini</div>
+            <div class="skill-card"><i class="bi bi-box-arrow-in-right skill-icon"></i> REST API</div>
+            <div class="skill-card"><i class="bi bi-phone skill-icon"></i> Android Studio</div>
+            <div class="skill-card"><i class="bi bi-file-bar-graph skill-icon"></i> SSRS</div>
+            <div class="skill-card"><i class="bi bi-gpu-card skill-icon"></i> Alea GPU</div>
+            <div class="skill-card"><i class="bi bi-clock-history skill-icon"></i> Async</div>
+            <div class="skill-card"><i class="bi bi-cpu skill-icon"></i> TPL</div>
+            <div class="skill-card"><i class="bi bi-braces skill-icon"></i> JSON</div>
+            <div class="skill-card"><i class="bi bi-code-slash skill-icon"></i> XML</div>
+            <div class="skill-card"><i class="bi bi-diagram-3 skill-icon"></i> OOP</div>
+            <div class="skill-card"><i class="bi bi-wordpress skill-icon"></i> WordPress</div>
+            <div class="skill-card"><i class="bi bi-lightning-charge skill-icon"></i> Fast Learner</div>
+            <div class="skill-card"><i class="bi bi-people-fill skill-icon"></i> Teamwork</div>
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div id="experience" class="ios-widget mb-5" >
+        <h2 class="mb-4 fw-bold">Experience</h2>
+        <div class="list-unstyled">
+            <div class="mb-4">
+                <a href="https://www.usoft.ru" target="_blank" rel="noopener noreferrer">
+                    <h5 class="mb-1">Full Stack Developer — Y-SOFT Information Services LLC</h5>
+                </a>
+                <small class="text-muted">December 2022 – March 2024</small>
+                <p class="mb-1">Corporate Web Platforms and Microservices Development</p>
+                <ul>
+                    <li>Contributed to full-cycle development of a CRM system in ASP.NET MVC 5, integrating business modules that streamlined operations and reduced manual tasks by over 60%.</li>
+                    <li>Contributed to the development of a mobile CRM app using Xamarin, implementing over 50% of core features to ensure remote access to essential functionality, increasing user mobility and operational flexibility by 50%.</li>
+                    <li>Actively contributed to the design and implementation of a microservices architecture by migrating 50% of CRM logic to remote services. Personally developed several core services and APIs, which improved scalability and reduced load times for both web and mobile platforms.</li>
+                    <li>Managed and optimized the existing database structure by redesigning tables, creating efficient indexes, implementing stored procedures, triggers, and logging mechanisms — significantly improving query performance and system reliability.</li>
+                    <li>Revamped existing reports per updated regulations, developed new invoices and financial reports using SSRS, and implemented QR-code payment from the mobile app — fully automating legal and accounting workflows and significantly simplifying client payments via mobile banking.</li>
+                    <li>Resolved user-reported bugs promptly and translated feedback into actionable sprint tasks, improving system stability and aligning development with real user needs.</li>
+                    <li>Built APIs for integration with government registries (like EGRUL), which fully automated client data checks and reduced documentation errors by 100%.</li>
+                    <li>Integrated VOSK speech recognition to transcribe and classify support calls, enabling a 40% faster response and better prioritization of urgent client requests, significantly improving support team efficiency.</li>
+                </ul>
+            </div>
+            <div class="mb-4">
+                <a href="https://www.rosneft.ru" target="_blank">
+                    <h5>Software Developer — RN-BashNIPINeft LLC (subsidiary of PJSC Rosneft)</h5>
+                </a>
+                <small class="text-muted">August 2022 – December 2022</small>
+                <p class="mb-1">Digital Engineering Document Management Platform – SAPSAN: Development and Optimization</p>
+                <ul>
+                    <li>Contributed to the development of the digital platform for engineering document management known as SAPSAN Plus.</li>
+                    <li>Played a key role in designing, implementing, and optimizing the platform, including coding, testing, and feature integration.</li>
+                    <li>Optimized the database by creating new tables, functions, and triggers to improve data processing efficiency.</li>
+                    <li>Provided technical support to users, quickly resolving issues and improving user satisfaction.</li>
+                    <li>Participated in the partial redesign of the system interface to meet updated business requirements.</li>
+                    <li>My contributions helped increase the overall workflow efficiency of SAPSAN Plus by approximately 30%, accelerating document management processes in Rosneft, a leading natural resources company.</li>
+                </ul>
+            </div>
+
+            <div class="mb-4">
+                <a href="https://kursufa.ru/" target="_blank">
+                    <h5 class="mb-1">Software Developer — Kurs LLC, UFA</h5>
+                </a>
+                <small class="text-muted">June 2021 – August 2022</small>
+                <p class="mb-1">Digital Engineering Document Management Platform – GIP Electro: Development and Optimization</p>
+                <ul>
+                    <li>Developed an electronic document management system for the company GIP Electro, specializing in servicing electrical networks, using ASP.NET MVC.</li>
+                    <li>Implemented a module for applications for work in electrical networks, which accelerated the application approval process by 90%.</li>
+                    <li>Created a work calendar for the dispatcher, which visualized the schedule and locations of work, significantly simplifying planning.</li>
+                    <li>Developed an archive of applications for convenient viewing of completed and rejected work.</li>
+                    <li>Implemented push notifications for signatories and process participants to increase the efficiency of communication.</li>
+                    <li>Engaged in database design and optimization.</li>
+                    <li>Actively interacted with customers, demonstrated the current status of work to the management and employees of GIP Elektro.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div id="education" class="ios-widget mb-5" >
+        <h2 class="mb-4 fw-bold">Education</h2>
+        <div class="list-unstyled">
+            <div class="mb-4">
+                <a href="https://uust.ru/" target="_blank" rel="noopener noreferrer">
+                    <h5 class="mb-1">Master's Degree in Applied Computer Science — Ufa University of Science and Technology</h5>
+                </a>
+                <ul>
+                    <li>Collaborated with classmates on academic projects, including developing a 3D game using Unity and Blender.</li>
+                    <li>Studied Python with a focus on neural networks and machine learning concepts.</li>
+                    <li>Developed mobile applications in Java and desktop applications for Windows environments.</li>
+                    <li>Completed advanced coursework in mathematical analysis and differential equations for solving scientific problems.</li>
+                    <li>Created a speech recognition and classification app using VOSK for the thesis project, which was later integrated into a corporate CRM system at Y-SOFT.</li>                
+                </ul>
+            </div>
+            <div class="mb-4">
+                <a href="https://uust.ru/" target="_blank">
+                    <h5>Bachelor's Degree of Mathematical Support and Administration of Information Systems — Bashkir State University</h5>
+                </a>
+                <ul>
+                    <li>Developed software projects including fractal generation tools and Android mobile applications.</li>
+                    <li>Participated in educational robotics initiatives: mentored children in Arduino programming and built maze-solving robotic mice.</li>
+                    <li>Completed a professional web development course by Yandex, gaining experience in both frontend and backend technologies.</li>
+                    <li>Studied network protocols and system administration</li>
+                    <li>Gained field experience in cable installation, Wi-Fi configuration, and hardware setup including switches and signal amplifiers</li>
+                </ul>
+            </div>
+
+            <div class="mb-4">
+                <a href="https://www.samsung.com/ru/inrussia/academy/" target="_blank">
+                    <h5 class="mb-1">Android Developer Certificate – IT Academy Samsung</h5>
+                </a>
+                <ul>
+                    <li>Developed an offline travel guide mobile application for the city of Ufa using Java.</li>
+                    <li>Integrated local attractions, cafés, and restaurants, storing data using SQLite.</li>
+                    <li>Focused on usability and offline functionality to ensure smooth user experience without internet access.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
