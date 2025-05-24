@@ -11,6 +11,7 @@
     <meta property="og:description" content="Explore my skills and projects in web development using ASP.NET MVC, C#, and more." />
     <meta property="og:url" content="https://rustydev.onrender.com/" />
     <meta property="og:type" content="website" />
+    <meta name="google-site-verification" content="tTXuwky2vsB5KpmvfDUwjvsn_geyxzcGhJ0VZ8-jlzE" />
 
     <title>@ViewData["Title"] - rustydev</title>
 
@@ -23,6 +24,16 @@
     <link rel="canonical" href="https://rustydev.onrender.com/" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ST29CMDSFT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ST29CMDSFT');
+    </script>
 
 </head>
 <body>
@@ -73,6 +84,9 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
