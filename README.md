@@ -1,28 +1,32 @@
-# 🚀 RustyDev — Portfolio Website
+# 🚀 rustydev — My ASP.NET Core MVC Portfolio Project
 
-Welcome to **RustyDev**, my personal portfolio website where I showcase my work as a **Full-Stack .NET Developer**.  
-It includes information about my skills, projects, and contact details.
+Welcome to **rustydev**, my personal portfolio website built as an **ASP.NET Core MVC** application on **.NET 8**.
 
-🌍 Live demo: [rustydev.onrender.com](https://rustydev.onrender.com/)
+---
+
+## 🌍 Live Demo
+👉 [rustydev.onrender.com](https://rustydev.onrender.com/)
 
 ---
 
 ## 🔧 Tech Stack
 
-- **Backend:** ASP.NET Core (.NET 8), C#, Entity Framework Core  
-- **Frontend:** React (TypeScript), HTML5, CSS3, Bootstrap  
-- **Database:** PostgreSQL (hosted on Render)  
-- **Other:** Docker (in progress), Azure (learning)  
+| 🏗 Layer     | ⚙️ Technologies                              |
+|--------------|-----------------------------------------------|
+| 🔙 Backend   | ASP.NET Core (MVC), .NET 8, C#                |
+| 🎨 Frontend  | Razor Views, HTML5, CSS3                      |
+| ☁️ Hosting   | Deployed on Render (free hosting platform)    |
+| 📐 Practices | MVC Pattern, Clean Code, Responsive Design    |
 
 ---
 
 ## ✨ Features
 
-- 🖥️ Responsive portfolio website (desktop + mobile)  
-- 📂 Projects section linked to my GitHub  
-- 📞 Contact form with email integration  
-- 🔍 SEO optimized for recruiters  
-- 🌐 Deployed on **Render** (free hosting)  
+- 📱 **Fully-responsive** portfolio showcasing projects and contact form  
+- 🧩 **Clean MVC architecture** with separation of concerns (Controllers, Models, Views)  
+- 🔍 **SEO-ready** with proper meta tags and structure  
+- ✉️ **Contact form** integrated for message submissions  
+- 🚀 **Easy deployment & maintenance** — currently hosted [here](https://rustydev.onrender.com/)  
 
 ---
 
