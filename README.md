@@ -48,10 +48,10 @@ Welcome to **rustydev**, my personal portfolio website built as an **ASP.NET Cor
    
 2. Navigate to the project folder and run it:
    cd rustydev
+   
    dotnet run
 
-
-3. Open your browser:
+4. Open your browser:
    👉 http://localhost:5000
 
 ---
