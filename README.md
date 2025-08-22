@@ -47,6 +47,7 @@ Welcome to **rustydev**, my personal portfolio website built as an **ASP.NET Cor
    git clone https://github.com/RustamUrazbakhtin/rustydev.git
    
 2. Navigate to the project folder and run it:
+   
    cd rustydev
    
    dotnet run
