@@ -32,11 +32,11 @@ Welcome to **rustydev**, my personal portfolio website built as an **ASP.NET Cor
 
 ## 📂 Repository Structure
 
-/Controllers — Handles routing and business logic
-/Models — Data models and view models
-/Views — Razor templates for UI
-/wwwroot — Static assets (CSS, images)
-rustydev.sln — Solution file including project configurations
+- /Controllers — Handles routing and business logic
+- /Models — Data models and view models
+- /Views — Razor templates for UI
+- /wwwroot — Static assets (CSS, images)
+- /rustydev.sln — Solution file including project configurations
 
 ---
 
@@ -49,6 +49,7 @@ rustydev.sln — Solution file including project configurations
 2. Navigate to the project folder and run it:
    cd rustydev
    dotnet run
+
 
 3. Open your browser:
    👉 http://localhost:5000
