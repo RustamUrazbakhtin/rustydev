@@ -1,7 +1,10 @@
 using System.Diagnostics;
+using System.Net.Mail;
+using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using rustydev.Data;
+using rustydev.Data.Models;
 using rustydev.Models;
 
 namespace rustydev.Controllers
@@ -10,7 +13,7 @@ namespace rustydev.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         //TODO: Finish the database and integrate it into the project
-        //private readonly DbRustyDevContext _context = new DbRustyDevContext();
+        private readonly DbRustyDevContext _context = new DbRustyDevContext();
 
 
         public HomeController(ILogger<HomeController> logger)
@@ -27,11 +30,12 @@ namespace rustydev.Controllers
             //        Name = s.Name,
             //        IconPath = s.IconPath
             //    }).ToList();
-
+            //
             //return View(skills);
             return View();
-
         }
+
+        [HttpPost]
 
         public IActionResult Projects()
         {
